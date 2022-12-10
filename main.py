@@ -37,7 +37,7 @@ login(driver, password)
 if args.mode == 'friends':
     download_friends(driver, args.friendslist)
 elif args.mode == 'search':
-    search(args.query, password)
+    search(driver, args.query, password)
 
 input('Once all songs have finished downloading press enter to stop program')
 
