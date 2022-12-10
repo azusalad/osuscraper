@@ -18,8 +18,8 @@ Python, argparse, selenium, time, getpass, tqdm
 Clone this repo, cd into the repo, and install requirements.
 
 ```sh
-git clone
-cd
+git clone https://github.com/pickyko/osuscraper.git
+cd osuscraper/
 pip install -r requirements.txt
 ```
 
