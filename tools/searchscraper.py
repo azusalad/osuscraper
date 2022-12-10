@@ -54,7 +54,9 @@ def search(driver, query, password):
 
     # search
     driver.find_element(By.CSS_SELECTOR,'#searchArea > dl:nth-child(1) > dd:nth-child(2) > input:nth-child(1)').send_keys(query)
-    driver.find_element(By.CSS_SELECTOR,'#searchArea > dl:nth-child(1) > dd:nth-child(2) > input:nth-child(1)').send_keys(Keys.RETURN)
+    #driver.find_element(By.CSS_SELECTOR,'#searchArea > dl:nth-child(1) > dd:nth-child(2) > input:nth-child(1)').send_keys(Keys.RETURN)
+    driver.find_element(By.CSS_SELECTOR,'#searchArea > dl:nth-child(1) > dd:nth-child(2) > a:nth-child(2)').click()
+    time.sleep(10)
     driver.get(driver.current_url + '&page=1')
 
     # cycle until finished downloading all ranked maps
