@@ -1,5 +1,5 @@
 # osu!scraper
-Automate mass downloads of beatmaps based on search query or friend's beatmaps.  There are two modes: search and friends.
+Automate mass downloads of osu beatmaps based on search query or friend's beatmaps.  There are two modes: search and friends.
 
 
 The search mode downloads all ranked/approved and loved beatmaps based on search query.  For example, if you make your query 'touhou' then the scraper will download all beatmaps that appear as a search result from the query touhou.  The scraper will not download maps that you already own.
