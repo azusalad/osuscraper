@@ -6,6 +6,9 @@ The search mode downloads all ranked/approved and loved beatmaps based on search
 
 The friend's list mode downloads all the beatmaps that your friend has and you don't.
 
+
+![Preview](preview.gif)
+
 ## Requirements
 Python, argparse, selenium, time, getpass, tqdm
 
@@ -13,8 +16,8 @@ Python, argparse, selenium, time, getpass, tqdm
 Clone this repo, cd into the repo, and install requirements.
 
 ```sh
-git clone https://github.com/pickyko/osuscraper.git
-cd osuscraper/
+git clone
+cd
 pip install -r requirements.txt
 ```
 
