@@ -1,7 +1,9 @@
 # osu!scraper
-Automate mass downloads of beatmaps based on search query or friend's beatmaps.
-There are two modes: search and friends.
+Automate mass downloads of beatmaps based on search query or friend's beatmaps.  There are two modes: search and friends.
+
+
 The search mode downloads all ranked/approved and loved beatmaps based on search query.  For example, if you make your query 'touhou' then the scraper will download all beatmaps that appear as a search result from the query touhou.  The scraper will not download maps that you already own.
+
 The friend's list mode downloads all the beatmaps that your friend has and you don't.
 
 ## Requirements
@@ -34,6 +36,10 @@ options:
 ```
 Run the program with the mode you want (-m) and then either the search query or friend's list location based on the mode.
 
+When running the program, the program will first ask for your osu password.  Enter your password.
+
+Then after the program logs in to the website for you, the website may or may give you a captcha for you to solve.  After solving the captcha (if there is one), press enter and the program will start the download of beatmaps.
+
 ### Search Mode
 Run main.py with search mode and the search query.  For example:
 
@@ -61,6 +67,8 @@ Run main.py with friend's list mode and the location of the friend's list.  For 
 `python main.py -m friends -fl friendslist.txt`
 
 will make the scraper look in friendslist.txt (located in the same location as main.py) and download all the songs in there that you do not have.
+
+
 
 
 
