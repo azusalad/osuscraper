@@ -36,7 +36,7 @@ def cycle(driver):
     else:
         set_finish = True
 
-def search(query, password):
+def search(driver, query, password):
     """Search mode of osuscraper"""
     set_finish = False
     driver.get('https://old.ppy.sh/p/beatmaplist') # goes to the old site which has pagination
