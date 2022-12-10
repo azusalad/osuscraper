@@ -7,6 +7,8 @@ The search mode downloads all ranked/approved and loved beatmaps based on search
 The friend's list mode downloads all the beatmaps that your friend has and you don't.
 
 
+Preview of search mode:
+
 ![Preview](preview.gif)
 
 ## Requirements
