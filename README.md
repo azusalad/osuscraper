@@ -34,6 +34,7 @@ options:
   -fl FRIENDSLIST, --friendslist FRIENDSLIST
                         Friend's beatmap list location.
 ```
+First make sure that config.py is completely filled out with your preferences and information.
 Run the program with the mode you want (-m) and then either the search query or friend's list location based on the mode.
 
 When running the program, the program will first ask for your osu password.  Enter your password.
