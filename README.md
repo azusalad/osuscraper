@@ -12,7 +12,7 @@ Preview of search mode:
 ![Preview](preview.gif)
 
 ## Requirements
-Python, argparse, selenium, getpass, tqdm
+Python, selenium, tqdm
 
 ## Setup
 Clone this repo, cd into the repo, and install requirements.
