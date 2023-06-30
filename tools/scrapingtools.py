@@ -4,6 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.firefox.service import Service
 
 from config import *
 
@@ -17,7 +18,8 @@ def create_driver():
     options.set_preference("browser.download.downloadDir", download_dir)
     options.set_preference("browser.download.defaultFolder", download_dir)
     options.set_preference("browser.helperApps.neverAsk.saveToDisk", "application/x-osu-beatmap-archive")
-    driver = webdriver.Firefox(executable_path=path, options=options)
+    service = Service(executable_path=path)
+    driver = webdriver.Firefox(service=service, options=options)
     return driver
 
 def login(driver, password):
